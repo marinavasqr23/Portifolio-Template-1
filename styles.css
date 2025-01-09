@@ -1,0 +1,56 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+/*NAVBAR*/
+
+#navbar{
+    display: flex;
+    gap:60%;
+    background-color: yellowgreen;
+    height: 15vh;
+    align-items: center;
+}
+.navbar-elements{
+    display: flex;
+}
+
+/*SERVIÇO*/
+#service{
+    background-color: #EEEEEE; 
+}
+
+/*FOOTER*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    gap:20%;
+    padding: 2%;
+    
+}
+
+.contato-elements img{
+    width:2vw;
+    height: auto;
+    border-radius: 100%;
+}
+
+.contato-elements{
+    display: flex;
+    flex-direction:row;
+    gap: 0.5%;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;  
+    gap: 1rem;               
+    width: 100%;            
+}
+
+#contato-copy{
+    display: flex;        
+    justify-content: flex-end;  
+    width: 100%;          
+}
